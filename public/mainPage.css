@@ -3,6 +3,12 @@
   justify-content: center;
   align-items: center;
 }
+.hoverScale {
+}
+.hoverScale:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .linkHover {
   position: relative; /* Needed to position the pseudo-element */
   transition: all 0.3s ease-out;
